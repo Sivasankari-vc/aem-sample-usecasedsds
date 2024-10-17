@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Sample Use case - All</comment>
+<entry key="allowIndexDefinitions">false</entry>
+<entry key="created">2024-10-16T13:37:42.391Z</entry>
+<entry key="groupId">com.aem.sample.usecase</entry>
+<entry key="name">aem-sample-usecase.all</entry>
+<entry key="description">All content package for Sample Use case</entry>
+<entry key="artifactId">aem-sample-usecase.all</entry>
+<entry key="version">0.0.1-SNAPSHOT</entry>
+<entry key="packageType">container</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">com.aem.sample.usecase</entry>
+</properties>

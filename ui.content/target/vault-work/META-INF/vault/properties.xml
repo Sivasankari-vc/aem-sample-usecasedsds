@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Sample Use case - UI content</comment>
+<entry key="allowIndexDefinitions">false</entry>
+<entry key="acHandling">merge</entry>
+<entry key="dependencies-locations">com.aem.sample.usecase:aem-sample-usecase.ui.apps:0.0.1-SNAPSHOT=maven:com.aem.sample.usecase:aem-sample-usecase.ui.apps:0.0.1-SNAPSHOT:zip</entry>
+<entry key="created">2024-10-16T13:37:33.997Z</entry>
+<entry key="groupId">com.aem.sample.usecase</entry>
+<entry key="description">UI content package for Sample Use case</entry>
+<entry key="version">0.0.1-SNAPSHOT</entry>
+<entry key="packageType">content</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="dependencies">com.aem.sample.usecase:aem-sample-usecase.ui.apps:0.0.1-SNAPSHOT</entry>
+<entry key="cloudManagerTarget">none</entry>
+<entry key="name">aem-sample-usecase.ui.content</entry>
+<entry key="artifactId">aem-sample-usecase.ui.content</entry>
+<entry key="group">com.aem.sample.usecase</entry>
+</properties>

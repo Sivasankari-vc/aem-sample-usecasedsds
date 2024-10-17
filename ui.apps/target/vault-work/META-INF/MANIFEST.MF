@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Created-By: Apache Jackrabbit FileVault - Package Maven Plugin 1.1.6
+Build-Jdk-Spec: 11
+Implementation-Title: Sample Use case - UI apps
+Implementation-Version: 0.0.1-SNAPSHOT
+Content-Package-Type: application
+Content-Package-Id: com.aem.sample.usecase:aem-sample-usecase.ui.apps:0.
+ 0.1-SNAPSHOT
+Content-Package-Description: UI apps package for Sample Use case
+Content-Package-Roots: /apps/sample/clientlibs,/apps/sample/components,/
+ apps/sample/i18n
+Import-Package: com.aem.sample.usecase.core.models;version="[1.0.0,2.0.0
+ )",org.apache.sling.scripting.sightly;version="[2.0.0,3.0.0)"
+

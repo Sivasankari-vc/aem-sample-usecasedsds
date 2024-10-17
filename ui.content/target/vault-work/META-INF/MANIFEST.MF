@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Created-By: Apache Jackrabbit FileVault - Package Maven Plugin 1.1.6
+Build-Jdk-Spec: 11
+Implementation-Title: Sample Use case - UI content
+Implementation-Version: 0.0.1-SNAPSHOT
+Content-Package-Type: content
+Content-Package-Id: com.aem.sample.usecase:aem-sample-usecase.ui.content
+ :0.0.1-SNAPSHOT
+Content-Package-Description: UI content package for Sample Use case
+Content-Package-Dependencies: com.aem.sample.usecase:aem-sample-usecase.
+ ui.apps:0.0.1-SNAPSHOT
+Content-Package-Dependencies-Locations: com.aem.sample.usecase:aem-sampl
+ e-usecase.ui.apps:0.0.1-SNAPSHOT=maven:com.aem.sample.usecase:aem-sampl
+ e-usecase.ui.apps:0.0.1-SNAPSHOT:zip
+Content-Package-Roots: /conf/sample,/content/dam/sample/asset.jpg,/conte
+ nt/experience-fragments/sample,/content/sample
+

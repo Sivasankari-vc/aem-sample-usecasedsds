@@ -1,0 +1,44 @@
+Manifest-Version: 1.0
+Bundle-Category: Sample Use case
+Bundle-Description: Core bundle for Sample Use case
+Bundle-ManifestVersion: 2
+Bundle-Name: Sample Use case - Core
+Bundle-SymbolicName: aem-sample-usecase.core
+Bundle-Version: 0.0.1.SNAPSHOT
+Export-Package: com.aem.sample.usecase.core.filters;version="1.0";uses
+ :="javax.servlet",com.aem.sample.usecase.core.listeners;version="1.0"
+ ;uses:="org.apache.sling.api.resource.observation",com.aem.sample.use
+ case.core.models;version="1.0";uses:="javax.annotation,org.apache.sli
+ ng.api.resource,org.apache.sling.models.annotations,org.apache.sling.
+ models.annotations.injectorspecific",com.aem.sample.usecase.core.sche
+ dulers;version="1.0",com.aem.sample.usecase.core.servlets;version="1.
+ 0";uses:="javax.servlet,org.apache.sling.api,org.apache.sling.api.ser
+ vlets"
+Import-Package: javax.annotation;version="0.0.0",com.aem.sample.usecas
+ e.core.filters;version="[1.0,2)",com.aem.sample.usecase.core.listener
+ s;version="[1.0,2)",com.aem.sample.usecase.core.schedulers;version="[
+ 1.0,2)",com.aem.sample.usecase.core.servlets;version="[1.0,2)",com.da
+ y.cq.wcm.api;version="[1.31,2)",javax.servlet;version="[4.0,5)",org.a
+ pache.sling.api;version="[2.3,3)",org.apache.sling.api.request;versio
+ n="[2.7,3)",org.apache.sling.api.resource;version="[2.13,3)",org.apac
+ he.sling.api.resource.observation;version="[1.2,2)",org.apache.sling.
+ api.servlets;version="[2.4,3)",org.apache.sling.models.annotations;ve
+ rsion="[1.5,2)",org.apache.sling.models.annotations.injectorspecific;
+ version="[1.1,2)",org.slf4j;version="[1.7,2)"
+Provide-Capability: osgi.service;objectClass:List<String>="java.lang.R
+ unnable",osgi.service;objectClass:List<String>="javax.servlet.Filter"
+ ;uses:="javax.servlet",osgi.service;objectClass:List<String>="javax.s
+ ervlet.Servlet";uses:="javax.servlet",osgi.service;objectClass:List<S
+ tring>="org.apache.sling.api.resource.observation.ResourceChangeListe
+ ner";uses:="org.apache.sling.api.resource.observation"
+Require-Capability: osgi.extender;filter:="(&(osgi.extender=osgi.compo
+ nent)(version>=1.5.0)(!(version>=2.0.0)))",osgi.ee;filter:="(&(osgi.e
+ e=JavaSE)(version=1.8))"
+Service-Component: OSGI-INF/com.aem.sample.usecase.core.filters.Loggin
+ gFilter.xml,OSGI-INF/com.aem.sample.usecase.core.listeners.SimpleReso
+ urceListener.xml,OSGI-INF/com.aem.sample.usecase.core.schedulers.Simp
+ leScheduledTask.xml,OSGI-INF/com.aem.sample.usecase.core.servlets.Sim
+ pleServlet.xml
+Sling-Model-Classes: com.aem.sample.usecase.core.models.HelloWorldMode
+ l
+

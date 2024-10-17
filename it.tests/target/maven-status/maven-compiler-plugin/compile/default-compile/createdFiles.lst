@@ -1,0 +1,4 @@
+com/aem/sample/usecase/it/tests/GetPageIT.class
+com/aem/sample/usecase/it/tests/PublishPageValidationIT.class
+com/aem/sample/usecase/it/tests/HtmlUnitClient.class
+com/aem/sample/usecase/it/tests/CreatePageIT.class
